@@ -2,7 +2,6 @@
 **Author:** Pei-Cheng, Li (h24074085@gs.ncku.edu.tw)
 
 ## Introduction
-***
 Backpropagation:  
   * Draw the computational graph
   * Find the gradients
