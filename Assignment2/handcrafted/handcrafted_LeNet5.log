@@ -1,0 +1,73 @@
+Filename: main.py
+
+Line #    Mem usage    Increment  Occurences   Line Contents
+============================================================
+    21    167.8 MiB    167.8 MiB           1   @profile(stream=open('handcrafted_LeNet5.log', 'w+'))
+    22                                         def main():
+    23    167.8 MiB      0.0 MiB           1       args = parse_args()
+    24    180.3 MiB     12.5 MiB           1       model = LeNet5()
+    25    180.3 MiB      0.0 MiB           1       size = 128
+    26    238.8 MiB     58.5 MiB           1       val_x, val_y = load_data('val', batch=args.val_batch, size=size)
+    27    238.8 MiB      0.0 MiB           1       val_y = np.argmax(val_y, axis=1).reshape((len(val_y), 1))
+    28                                         
+    29    238.8 MiB      0.0 MiB           1       lossList = []
+    30    238.8 MiB      0.0 MiB           1       train_accList = []
+    31    238.8 MiB      0.0 MiB           1       val_accList = []
+    32    238.8 MiB      0.0 MiB           1       epochsList = []
+    33    238.8 MiB      0.0 MiB           1       best_acc = 0
+    34    238.8 MiB      0.0 MiB           1       optimizer = SGDMomentum(model.get_parameters(), lr=args.lr, rho=0.8, reg=0.00003)
+    35    238.8 MiB      0.0 MiB           1       criterion = CrossEntropyLoss()
+    36                                         
+    37    238.8 MiB      0.0 MiB           1       total_time = 0
+    38                                             # train
+    39   2299.1 MiB  -5623.1 MiB         201       for epoch in range(args.epochs):
+    40   2299.1 MiB  -5589.4 MiB         200           start = timeit.default_timer()
+    41   2347.1 MiB   2968.4 MiB         200           X_batch, Y_batch = load_data('train', batch=args.train_batch, size=size)
+    42   2295.0 MiB -13593.5 MiB         200           Y_pred = model(X_batch)
+    43                                         
+    44   2295.0 MiB  -4949.6 MiB         200           loss, dout = criterion.get(Y_pred, Y_batch)
+    45   2299.3 MiB  -4488.2 MiB         200           model.backward(dout)
+    46   2299.3 MiB  -5618.7 MiB         200           optimizer.step()
+    47                                         
+    48   2299.3 MiB  -5633.0 MiB         200           Y_pred = Y_pred.argsort(axis=1)[:, -1:]
+    49   2299.1 MiB  -5636.8 MiB         200           Y_batch = np.argmax(Y_batch, axis=1).reshape((len(Y_batch), 1))
+    50   2299.1 MiB  -5594.5 MiB         200           train_acc = (Y_pred == Y_batch).mean()
+    51   2299.1 MiB  -5594.5 MiB         200           stop = timeit.default_timer()
+    52                                         
+    53   2299.1 MiB  -5594.5 MiB         200           lossList.append(loss)
+    54   2299.1 MiB  -5594.5 MiB         200           print(f'Epochs: {epoch}\t|Loss: {loss}\t|Acc: {train_acc}\t|Time: {stop - start}')
+    55                                         
+    56                                                 # validation
+    57   2299.1 MiB  -5594.5 MiB         200           if (epoch % 10) == 0:
+    58   2290.5 MiB   -568.5 MiB          20               val_y_pred = model(val_x)
+    59   2290.5 MiB   -389.3 MiB          20               val_y_pred = val_y_pred.argsort(axis=1)[:, -1:]
+    60   2290.5 MiB   -389.3 MiB          20               val_acc = (val_y_pred == val_y).mean()
+    61   2290.5 MiB   -389.3 MiB          20               print(f'Epochs: {epoch}\t|Loss: {loss}\t|Train Acc: {train_acc}\t|Val Acc: {val_acc}\t|Time: {stop - start}')
+    62                                         
+    63   2290.5 MiB   -389.3 MiB          20               train_accList.append(train_acc)
+    64   2290.5 MiB   -389.3 MiB          20               val_accList.append(val_acc)
+    65   2290.5 MiB   -389.3 MiB          20               epochsList.append(epoch)
+    66                                         
+    67   2290.5 MiB   -389.3 MiB          20               if val_acc > best_acc:
+    68   2271.7 MiB      0.0 MiB           2                   model.save_parameters('handcrafted_LeNet5.npy')
+    69   2271.7 MiB      0.0 MiB           2                   best_acc = val_acc
+    70                                         
+    71                                         
+    72   2299.1 MiB  -5426.6 MiB         200           total_time += (stop - start)
+    73                                         
+    74                                             # test
+    75    503.8 MiB  -1795.3 MiB           1       model = LeNet5()
+    76    503.8 MiB      0.0 MiB           1       model.load_parameters('handcrafted_LeNet5.npy')
+    77    672.6 MiB    168.8 MiB           1       test_x, test_y = load_data('val', batch=False, size=size)
+    78    672.6 MiB      0.0 MiB           1       test_y = np.argmax(test_y, axis=1).reshape((len(test_y), 1))
+    79   7070.3 MiB   6397.7 MiB           1       test_y_pred = model(test_x)
+    80   7070.3 MiB      0.0 MiB           1       test_y_pred = test_y_pred.argsort(axis=1)[:, -1:]
+    81   7070.3 MiB      0.0 MiB           1       test_acc = (test_y_pred == test_y).mean()
+    82   7070.3 MiB      0.0 MiB           1       print(f'Test Accuracy: {test_acc}')
+    83   7070.3 MiB      0.0 MiB           1       print(f'Total Time: {total_time}')
+    84                                         
+    85                                             # plot
+    86   7072.5 MiB      2.2 MiB           1       plot_acc(train_accList, val_accList, epochsList, 'handcrafted_LeNet5_acc.png')
+    87   7072.6 MiB      0.1 MiB           1       plot_loss(lossList, 'handcrafted_LeNet5_loss.png')
+
+

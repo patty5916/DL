@@ -1,0 +1,34 @@
+Filename: main.py
+
+Line #    Mem usage    Increment  Occurences   Line Contents
+============================================================
+    21    301.2 MiB    301.2 MiB           1   @profile(stream=open('tensorflow_LeNet5.log', 'w+'))
+    22                                         def main():
+    23    301.2 MiB      0.0 MiB           1       args = parse_args()
+    24                                         
+    25                                             # data
+    26    319.5 MiB     18.3 MiB           1       train_data = load_data('train').batch(args.train_batch)
+    27    319.5 MiB      0.0 MiB           1       val_data = load_data('val').batch(1)
+    28    319.5 MiB      0.0 MiB           1       test_data = load_data('test').batch(1)
+    29                                         
+    30    331.1 MiB     11.6 MiB           1       model = LeNet5()
+    31    331.1 MiB      0.0 MiB           1       optimizer = keras.optimizers.SGD(learning_rate=args.lr, momentum=0.8)
+    32    331.1 MiB      0.0 MiB           1       model.compile(optimizer=optimizer, loss=losses.sparse_categorical_crossentropy, metrics=['accuracy'])
+    33                                         
+    34    331.1 MiB      0.0 MiB           1       model_path = 'model.hdf5'
+    35    331.1 MiB      0.0 MiB           1       checkpoint = ModelCheckpoint(model_path, monitor='val_accuracy', verbose=1, save_best_only=True, mode='max')
+    36    331.1 MiB      0.0 MiB           1       callbackList = [checkpoint]
+    37                                         
+    38                                             # train
+    39   4210.2 MiB   3879.1 MiB           1       history = model.fit(train_data, epochs=args.epochs, callbacks=callbackList, validation_data=val_data)
+    40                                         
+    41                                             # test
+    42   4210.7 MiB      0.5 MiB           1       loss, acc = model.evaluate(test_data)
+    43   4210.7 MiB      0.0 MiB           1       print(f'Test Accuracy: {acc}')
+    44                                         
+    45                                         
+    46                                             # plot
+    47   4258.3 MiB     47.6 MiB           1       plot_acc(history, 'tensorflow_LeNet5_acc.png')
+    48   4262.6 MiB      4.3 MiB           1       plot_loss(history, 'tensorflow_LeNet5_loss.png')
+
+

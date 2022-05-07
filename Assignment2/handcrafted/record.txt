@@ -1,0 +1,243 @@
+Epochs: 0       |Loss: 18.27676917556211        |Acc: 0.0078125 |Time: 8.103141565108672
+Epochs: 0       |Loss: 18.27676917556211        |Train Acc: 0.0078125   |Val Acc: 0.015625      |Time: 8.103141565108672
+Save parameters successfully.
+Load parameters successfully.
+Test Accuracy: 0.02
+Total Time: 8.103141565108672
+/home/h24074085/miniconda3/envs/FND/lib/python3.8/site-packages/seaborn/_decorators.py:36: FutureWarning: Pass the following variables as keyword args: x, y. From version 0.12, the only valid positional argument will be `data`, and passing other arguments without an explicit keyword will result in an error or misinterpretation.
+  warnings.warn(
+/home/h24074085/miniconda3/envs/FND/lib/python3.8/site-packages/seaborn/_decorators.py:36: FutureWarning: Pass the following variables as keyword args: x, y. From version 0.12, the only valid positional argument will be `data`, and passing other arguments without an explicit keyword will result in an error or misinterpretation.
+  warnings.warn(
+Save Top-1 accuracy successfully.
+(FND) h24074085@jetwell-R940xa:~/DL/handcrafted$ python main.py
+Epochs: 0       |Loss: 18.132857607171857       |Acc: 0.015625  |Time: 7.997301951982081
+Epochs: 0       |Loss: 18.132857607171857       |Train Acc: 0.015625    |Val Acc: 0.0234375     |Time: 7.997301951982081
+Save parameters successfully.
+Epochs: 1       |Loss: 18.27676917556211        |Acc: 0.0078125 |Time: 7.886038959957659
+Epochs: 2       |Loss: 18.420680743952364       |Acc: 0.0       |Time: 8.112034311052412
+Epochs: 3       |Loss: 18.132857607171857       |Acc: 0.015625  |Time: 7.8055653208866715
+Epochs: 4       |Loss: 18.132857607171857       |Acc: 0.015625  |Time: 7.787066147197038
+Epochs: 5       |Loss: 18.132857607171857       |Acc: 0.015625  |Time: 7.6544729098677635
+Epochs: 6       |Loss: 17.312709894990338       |Acc: 0.0234375 |Time: 8.099305138923228
+/home/h24074085/DL/handcrafted/layer.py:15: RuntimeWarning: invalid value encountered in add
+  img[:, :, y:max_y:stride, x:max_x:stride] += color[:, :, y, x, :, :]
+Epochs: 7       |Loss: 18.132857607171857       |Acc: 0.015625  |Time: 7.736753897974268
+Epochs: 8       |Loss: nan      |Acc: 0.03125   |Time: 8.067386141046882
+Epochs: 9       |Loss: nan      |Acc: 0.0078125 |Time: 7.673984614899382
+Epochs: 10      |Loss: nan      |Acc: 0.03125   |Time: 8.26585668604821
+Epochs: 10      |Loss: nan      |Train Acc: 0.03125     |Val Acc: 0.046875      |Time: 8.26585668604821
+Save parameters successfully.
+Epochs: 11      |Loss: nan      |Acc: 0.0078125 |Time: 7.793587855063379
+Epochs: 12      |Loss: nan      |Acc: 0.0234375 |Time: 7.86804438685067
+Epochs: 13      |Loss: nan      |Acc: 0.0078125 |Time: 8.612091799033806
+Epochs: 14      |Loss: nan      |Acc: 0.015625  |Time: 7.669451953843236
+Epochs: 15      |Loss: nan      |Acc: 0.015625  |Time: 7.791193929966539
+Epochs: 16      |Loss: nan      |Acc: 0.015625  |Time: 7.77603892586194
+Epochs: 17      |Loss: nan      |Acc: 0.0       |Time: 7.653746462892741
+Epochs: 18      |Loss: nan      |Acc: 0.015625  |Time: 7.685172521974891
+Epochs: 19      |Loss: nan      |Acc: 0.0078125 |Time: 8.098844470921904
+Epochs: 20      |Loss: nan      |Acc: 0.0       |Time: 7.948620073962957
+Epochs: 20      |Loss: nan      |Train Acc: 0.0 |Val Acc: 0.046875      |Time: 7.948620073962957
+Epochs: 21      |Loss: nan      |Acc: 0.0078125 |Time: 8.017930736998096
+Epochs: 22      |Loss: nan      |Acc: 0.0390625 |Time: 7.718970712972805
+Epochs: 23      |Loss: nan      |Acc: 0.0       |Time: 7.6325545739382505
+Epochs: 24      |Loss: nan      |Acc: 0.0234375 |Time: 7.827565869083628
+Epochs: 25      |Loss: nan      |Acc: 0.0234375 |Time: 7.800979516003281
+/home/h24074085/miniconda3/envs/FND/lib/python3.8/site-packages/PIL/TiffImagePlugin.py:822: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epochs: 26      |Loss: nan      |Acc: 0.0390625 |Time: 7.671872057951987
+Epochs: 27      |Loss: nan      |Acc: 0.015625  |Time: 7.879903284134343
+Epochs: 28      |Loss: nan      |Acc: 0.015625  |Time: 7.959656729130074
+Epochs: 29      |Loss: nan      |Acc: 0.03125   |Time: 8.072143198922276
+Epochs: 30      |Loss: nan      |Acc: 0.0234375 |Time: 7.940483589889482
+Epochs: 30      |Loss: nan      |Train Acc: 0.0234375   |Val Acc: 0.046875      |Time: 7.940483589889482
+Epochs: 31      |Loss: nan      |Acc: 0.0234375 |Time: 9.001682284055278
+Epochs: 32      |Loss: nan      |Acc: 0.0078125 |Time: 7.918359539005905
+Epochs: 33      |Loss: nan      |Acc: 0.0       |Time: 8.93489121994935
+Epochs: 34      |Loss: nan      |Acc: 0.03125   |Time: 7.772144541144371
+Epochs: 35      |Loss: nan      |Acc: 0.046875  |Time: 8.67795104207471
+Epochs: 36      |Loss: nan      |Acc: 0.0078125 |Time: 8.120400496991351
+Epochs: 37      |Loss: nan      |Acc: 0.0234375 |Time: 7.726103262044489
+Epochs: 38      |Loss: nan      |Acc: 0.03125   |Time: 7.73347691888921
+Epochs: 39      |Loss: nan      |Acc: 0.0234375 |Time: 7.715483739040792
+Epochs: 40      |Loss: nan      |Acc: 0.0078125 |Time: 7.855733257951215
+Epochs: 40      |Loss: nan      |Train Acc: 0.0078125   |Val Acc: 0.046875      |Time: 7.855733257951215
+Epochs: 41      |Loss: nan      |Acc: 0.046875  |Time: 7.721546450164169
+Epochs: 42      |Loss: nan      |Acc: 0.0234375 |Time: 7.666010200977325
+Epochs: 43      |Loss: nan      |Acc: 0.0390625 |Time: 7.566855364944786
+Epochs: 44      |Loss: nan      |Acc: 0.03125   |Time: 7.849555515917018
+Epochs: 45      |Loss: nan      |Acc: 0.03125   |Time: 8.147751766024157
+Epochs: 46      |Loss: nan      |Acc: 0.015625  |Time: 8.010502964025363
+Epochs: 47      |Loss: nan      |Acc: 0.03125   |Time: 8.010762247024104
+Epochs: 48      |Loss: nan      |Acc: 0.015625  |Time: 7.6586582839954644
+Epochs: 49      |Loss: nan      |Acc: 0.0546875 |Time: 8.143625738099217
+Epochs: 50      |Loss: nan      |Acc: 0.03125   |Time: 8.3413134010043
+Epochs: 50      |Loss: nan      |Train Acc: 0.03125     |Val Acc: 0.046875      |Time: 8.3413134010043
+Epochs: 51      |Loss: nan      |Acc: 0.0078125 |Time: 7.98904230305925
+Epochs: 52      |Loss: nan      |Acc: 0.0234375 |Time: 7.822305473033339
+Epochs: 53      |Loss: nan      |Acc: 0.0078125 |Time: 7.710408424027264
+Epochs: 54      |Loss: nan      |Acc: 0.0078125 |Time: 7.684735816903412
+Epochs: 55      |Loss: nan      |Acc: 0.03125   |Time: 7.950494230026379
+Epochs: 56      |Loss: nan      |Acc: 0.03125   |Time: 8.17374625382945
+Epochs: 57      |Loss: nan      |Acc: 0.015625  |Time: 8.2117835348472
+Epochs: 58      |Loss: nan      |Acc: 0.03125   |Time: 7.869379295036197
+Epochs: 59      |Loss: nan      |Acc: 0.03125   |Time: 8.560006045969203
+Epochs: 60      |Loss: nan      |Acc: 0.0390625 |Time: 8.029569084057584
+Epochs: 60      |Loss: nan      |Train Acc: 0.0390625   |Val Acc: 0.046875      |Time: 8.029569084057584
+Epochs: 61      |Loss: nan      |Acc: 0.03125   |Time: 8.08160723396577
+Epochs: 62      |Loss: nan      |Acc: 0.015625  |Time: 7.941907369997352
+Epochs: 63      |Loss: nan      |Acc: 0.0078125 |Time: 8.172458685003221
+Epochs: 64      |Loss: nan      |Acc: 0.03125   |Time: 8.17015600996092
+Epochs: 65      |Loss: nan      |Acc: 0.0234375 |Time: 8.327384803909808
+Epochs: 66      |Loss: nan      |Acc: 0.0078125 |Time: 8.68005704600364
+Epochs: 67      |Loss: nan      |Acc: 0.03125   |Time: 7.919387405039743
+Epochs: 68      |Loss: nan      |Acc: 0.0390625 |Time: 7.92337212106213
+Epochs: 69      |Loss: nan      |Acc: 0.015625  |Time: 8.136349943000823
+Epochs: 70      |Loss: nan      |Acc: 0.0390625 |Time: 7.967843640828505
+Epochs: 70      |Loss: nan      |Train Acc: 0.0390625   |Val Acc: 0.046875      |Time: 7.967843640828505
+Epochs: 71      |Loss: nan      |Acc: 0.03125   |Time: 8.570437035989016
+Epochs: 72      |Loss: nan      |Acc: 0.03125   |Time: 7.615925549063832
+Epochs: 73      |Loss: nan      |Acc: 0.0234375 |Time: 7.720494859153405
+Epochs: 74      |Loss: nan      |Acc: 0.015625  |Time: 7.685613504145294
+Epochs: 75      |Loss: nan      |Acc: 0.0234375 |Time: 7.886242766864598
+Epochs: 76      |Loss: nan      |Acc: 0.03125   |Time: 8.569882866228
+Epochs: 77      |Loss: nan      |Acc: 0.0234375 |Time: 8.070363111095503
+Epochs: 78      |Loss: nan      |Acc: 0.0078125 |Time: 7.616936587961391
+Epochs: 79      |Loss: nan      |Acc: 0.015625  |Time: 7.692467041080818
+Epochs: 80      |Loss: nan      |Acc: 0.0       |Time: 8.709556302987039
+Epochs: 80      |Loss: nan      |Train Acc: 0.0 |Val Acc: 0.046875      |Time: 8.709556302987039
+Epochs: 81      |Loss: nan      |Acc: 0.03125   |Time: 9.003370095044374
+Epochs: 82      |Loss: nan      |Acc: 0.0546875 |Time: 7.966437772847712
+Epochs: 83      |Loss: nan      |Acc: 0.0078125 |Time: 8.171120308106765
+Epochs: 84      |Loss: nan      |Acc: 0.03125   |Time: 9.176228065043688
+Epochs: 85      |Loss: nan      |Acc: 0.015625  |Time: 9.352828591130674
+Epochs: 86      |Loss: nan      |Acc: 0.03125   |Time: 9.124746578978375
+Epochs: 87      |Loss: nan      |Acc: 0.015625  |Time: 9.077870315872133
+Epochs: 88      |Loss: nan      |Acc: 0.015625  |Time: 8.993779639014974
+Epochs: 89      |Loss: nan      |Acc: 0.0234375 |Time: 9.16134802182205
+Epochs: 90      |Loss: nan      |Acc: 0.046875  |Time: 9.118312960024923
+Epochs: 90      |Loss: nan      |Train Acc: 0.046875    |Val Acc: 0.046875      |Time: 9.118312960024923
+Epochs: 91      |Loss: nan      |Acc: 0.0234375 |Time: 9.838633510982618
+Epochs: 92      |Loss: nan      |Acc: 0.015625  |Time: 8.888210061006248
+Epochs: 93      |Loss: nan      |Acc: 0.03125   |Time: 9.188757723895833
+Epochs: 94      |Loss: nan      |Acc: 0.0234375 |Time: 9.574855346931145
+Epochs: 95      |Loss: nan      |Acc: 0.015625  |Time: 9.186505848076195
+Epochs: 96      |Loss: nan      |Acc: 0.03125   |Time: 9.091324061853811
+Epochs: 97      |Loss: nan      |Acc: 0.0078125 |Time: 8.820314710959792
+Epochs: 98      |Loss: nan      |Acc: 0.0234375 |Time: 9.0922283208929
+Epochs: 99      |Loss: nan      |Acc: 0.03125   |Time: 8.950382312061265
+Epochs: 100     |Loss: nan      |Acc: 0.015625  |Time: 8.96409999509342
+Epochs: 100     |Loss: nan      |Train Acc: 0.015625    |Val Acc: 0.046875      |Time: 8.96409999509342
+Epochs: 101     |Loss: nan      |Acc: 0.03125   |Time: 9.084671210963279
+Epochs: 102     |Loss: nan      |Acc: 0.015625  |Time: 8.97894270485267
+Epochs: 103     |Loss: nan      |Acc: 0.015625  |Time: 9.001979624852538
+Epochs: 104     |Loss: nan      |Acc: 0.015625  |Time: 9.26909147016704
+Epochs: 105     |Loss: nan      |Acc: 0.046875  |Time: 9.226130777969956
+Epochs: 106     |Loss: nan      |Acc: 0.015625  |Time: 9.014727825066075
+Epochs: 107     |Loss: nan      |Acc: 0.0234375 |Time: 9.19411282101646
+Epochs: 108     |Loss: nan      |Acc: 0.0234375 |Time: 9.386901675025001
+Epochs: 109     |Loss: nan      |Acc: 0.0234375 |Time: 9.123495633946732
+Epochs: 110     |Loss: nan      |Acc: 0.015625  |Time: 9.13995056017302
+Epochs: 110     |Loss: nan      |Train Acc: 0.015625    |Val Acc: 0.046875      |Time: 9.13995056017302
+Epochs: 111     |Loss: nan      |Acc: 0.0078125 |Time: 9.538356113946065
+Epochs: 112     |Loss: nan      |Acc: 0.015625  |Time: 9.294891994912177
+Epochs: 113     |Loss: nan      |Acc: 0.0390625 |Time: 9.389824997866526
+Epochs: 114     |Loss: nan      |Acc: 0.015625  |Time: 9.230202281149104
+Epochs: 115     |Loss: nan      |Acc: 0.0       |Time: 8.645813207840547
+Epochs: 116     |Loss: nan      |Acc: 0.015625  |Time: 9.30310609890148
+Epochs: 117     |Loss: nan      |Acc: 0.0       |Time: 9.37258325680159
+Epochs: 118     |Loss: nan      |Acc: 0.0078125 |Time: 9.867625643964857
+Epochs: 119     |Loss: nan      |Acc: 0.0078125 |Time: 9.155078531010076
+Epochs: 120     |Loss: nan      |Acc: 0.0       |Time: 9.055284297792241
+Epochs: 120     |Loss: nan      |Train Acc: 0.0 |Val Acc: 0.046875      |Time: 9.055284297792241
+Epochs: 121     |Loss: nan      |Acc: 0.0078125 |Time: 10.423728012945503
+Epochs: 122     |Loss: nan      |Acc: 0.015625  |Time: 9.198197619058192
+Epochs: 123     |Loss: nan      |Acc: 0.015625  |Time: 9.348928059916943
+Epochs: 124     |Loss: nan      |Acc: 0.0390625 |Time: 9.07402111706324
+Epochs: 125     |Loss: nan      |Acc: 0.0234375 |Time: 9.040801397990435
+Epochs: 126     |Loss: nan      |Acc: 0.015625  |Time: 9.072589199058712
+Epochs: 127     |Loss: nan      |Acc: 0.0078125 |Time: 9.106149733997881
+Epochs: 128     |Loss: nan      |Acc: 0.0234375 |Time: 8.970646037021652
+Epochs: 129     |Loss: nan      |Acc: 0.0546875 |Time: 9.066179285990074
+Epochs: 130     |Loss: nan      |Acc: 0.015625  |Time: 9.209491753019392
+Epochs: 130     |Loss: nan      |Train Acc: 0.015625    |Val Acc: 0.046875      |Time: 9.209491753019392
+Epochs: 131     |Loss: nan      |Acc: 0.0078125 |Time: 9.266755091957748
+Epochs: 132     |Loss: nan      |Acc: 0.015625  |Time: 9.18204937595874
+Epochs: 133     |Loss: nan      |Acc: 0.03125   |Time: 9.209608961129561
+Epochs: 134     |Loss: nan      |Acc: 0.0234375 |Time: 9.298436742974445
+Epochs: 135     |Loss: nan      |Acc: 0.015625  |Time: 9.045443228213117
+Epochs: 136     |Loss: nan      |Acc: 0.046875  |Time: 9.096459375927225
+Epochs: 137     |Loss: nan      |Acc: 0.03125   |Time: 9.396269481861964
+Epochs: 138     |Loss: nan      |Acc: 0.0078125 |Time: 9.377346212044358
+Epochs: 139     |Loss: nan      |Acc: 0.0859375 |Time: 9.017298763152212
+Epochs: 140     |Loss: nan      |Acc: 0.0078125 |Time: 8.814620763994753
+Epochs: 140     |Loss: nan      |Train Acc: 0.0078125   |Val Acc: 0.046875      |Time: 8.814620763994753
+Epochs: 141     |Loss: nan      |Acc: 0.03125   |Time: 8.779722691047937
+Epochs: 142     |Loss: nan      |Acc: 0.0       |Time: 8.886608397122473
+Epochs: 143     |Loss: nan      |Acc: 0.015625  |Time: 8.992493008961901
+Epochs: 144     |Loss: nan      |Acc: 0.0390625 |Time: 8.776206691982225
+Epochs: 145     |Loss: nan      |Acc: 0.015625  |Time: 9.164989973884076
+Epochs: 146     |Loss: nan      |Acc: 0.0       |Time: 8.910771207883954
+Epochs: 147     |Loss: nan      |Acc: 0.0234375 |Time: 9.035880212904885
+Epochs: 148     |Loss: nan      |Acc: 0.0078125 |Time: 9.194989589042962
+Epochs: 149     |Loss: nan      |Acc: 0.0       |Time: 9.724066021153703
+Epochs: 150     |Loss: nan      |Acc: 0.03125   |Time: 9.266455590026453
+Epochs: 150     |Loss: nan      |Train Acc: 0.03125     |Val Acc: 0.046875      |Time: 9.266455590026453
+Epochs: 151     |Loss: nan      |Acc: 0.03125   |Time: 9.208777226042002
+Epochs: 152     |Loss: nan      |Acc: 0.0078125 |Time: 9.340803005965427
+Epochs: 153     |Loss: nan      |Acc: 0.0390625 |Time: 9.124880047980696
+/home/h24074085/miniconda3/envs/FND/lib/python3.8/site-packages/PIL/TiffImagePlugin.py:822: UserWarning: Corrupt EXIF data.  Expecting to read 12 bytes but only got 3.
+  warnings.warn(str(msg))
+Epochs: 154     |Loss: nan      |Acc: 0.0234375 |Time: 9.984985343879089
+Epochs: 155     |Loss: nan      |Acc: 0.0390625 |Time: 9.209804082056507
+Epochs: 156     |Loss: nan      |Acc: 0.015625  |Time: 9.078910093056038
+Epochs: 157     |Loss: nan      |Acc: 0.0234375 |Time: 8.859494114061818
+Epochs: 158     |Loss: nan      |Acc: 0.0390625 |Time: 9.150749855907634
+Epochs: 159     |Loss: nan      |Acc: 0.015625  |Time: 9.165903134969994
+Epochs: 160     |Loss: nan      |Acc: 0.015625  |Time: 9.340988201787695
+Epochs: 160     |Loss: nan      |Train Acc: 0.015625    |Val Acc: 0.046875      |Time: 9.340988201787695
+Epochs: 161     |Loss: nan      |Acc: 0.03125   |Time: 9.218773494008929
+Epochs: 162     |Loss: nan      |Acc: 0.0078125 |Time: 9.136393952881917
+Epochs: 163     |Loss: nan      |Acc: 0.0       |Time: 9.305166834965348
+Epochs: 164     |Loss: nan      |Acc: 0.0234375 |Time: 9.80929301516153
+Epochs: 165     |Loss: nan      |Acc: 0.0234375 |Time: 9.179912828141823
+Epochs: 166     |Loss: nan      |Acc: 0.015625  |Time: 8.86614715307951
+Epochs: 167     |Loss: nan      |Acc: 0.0234375 |Time: 9.071125349029899
+Epochs: 168     |Loss: nan      |Acc: 0.0234375 |Time: 9.06634035287425
+Epochs: 169     |Loss: nan      |Acc: 0.03125   |Time: 9.328373119002208
+Epochs: 170     |Loss: nan      |Acc: 0.03125   |Time: 9.206302147125825
+Epochs: 170     |Loss: nan      |Train Acc: 0.03125     |Val Acc: 0.046875      |Time: 9.206302147125825
+Epochs: 171     |Loss: nan      |Acc: 0.0234375 |Time: 9.16727324994281
+Epochs: 172     |Loss: nan      |Acc: 0.0234375 |Time: 9.102300883969292
+Epochs: 173     |Loss: nan      |Acc: 0.03125   |Time: 9.005254401126876
+Epochs: 174     |Loss: nan      |Acc: 0.0078125 |Time: 9.284980345051736
+Epochs: 175     |Loss: nan      |Acc: 0.0078125 |Time: 9.300799747928977
+Epochs: 176     |Loss: nan      |Acc: 0.0078125 |Time: 9.254419672070071
+Epochs: 177     |Loss: nan      |Acc: 0.015625  |Time: 9.208306214073673
+Epochs: 178     |Loss: nan      |Acc: 0.0078125 |Time: 9.178477701963857
+Epochs: 179     |Loss: nan      |Acc: 0.03125   |Time: 8.932821775088087
+Epochs: 180     |Loss: nan      |Acc: 0.03125   |Time: 9.405975315021351
+Epochs: 180     |Loss: nan      |Train Acc: 0.03125     |Val Acc: 0.046875      |Time: 9.405975315021351
+Epochs: 181     |Loss: nan      |Acc: 0.0234375 |Time: 9.354310241993517
+Epochs: 182     |Loss: nan      |Acc: 0.0078125 |Time: 9.487765060039237
+Epochs: 183     |Loss: nan      |Acc: 0.0234375 |Time: 8.411247357958928
+Epochs: 184     |Loss: nan      |Acc: 0.0234375 |Time: 8.923275098204613
+Epochs: 185     |Loss: nan      |Acc: 0.015625  |Time: 8.859395271865651
+Epochs: 186     |Loss: nan      |Acc: 0.03125   |Time: 8.972268057987094
+Epochs: 187     |Loss: nan      |Acc: 0.0390625 |Time: 8.768528338056058
+Epochs: 188     |Loss: nan      |Acc: 0.0       |Time: 9.430596557911485
+Epochs: 189     |Loss: nan      |Acc: 0.0       |Time: 8.992227528011426
+Epochs: 190     |Loss: nan      |Acc: 0.015625  |Time: 9.13452115911059
+Epochs: 190     |Loss: nan      |Train Acc: 0.015625    |Val Acc: 0.046875      |Time: 9.13452115911059
+Epochs: 191     |Loss: nan      |Acc: 0.0234375 |Time: 9.099565027048811
+Epochs: 192     |Loss: nan      |Acc: 0.0390625 |Time: 8.865006523905322
+Epochs: 193     |Loss: nan      |Acc: 0.0078125 |Time: 8.753859369084239
+Epochs: 194     |Loss: nan      |Acc: 0.015625  |Time: 9.190299189882353
+Epochs: 195     |Loss: nan      |Acc: 0.015625  |Time: 9.20651807403192
+Epochs: 196     |Loss: nan      |Acc: 0.0078125 |Time: 9.236598009010777
+Epochs: 197     |Loss: nan      |Acc: 0.015625  |Time: 9.50641999905929
+Epochs: 198     |Loss: nan      |Acc: 0.0234375 |Time: 8.93493103608489
+Epochs: 199     |Loss: nan      |Acc: 0.0234375 |Time: 8.972535094013438
+Load parameters successfully.
+Test Accuracy: 0.02
+Total Time: 1735.092269523302
