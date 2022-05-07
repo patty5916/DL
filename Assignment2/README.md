@@ -7,7 +7,7 @@ LeNet5:
 ![image](LeNet5.jpg)
   * Version
     * Handcrafted
-    * Tensorflow (static graph & dynamic)
+    * Tensorflow
     * Pytorch
     * TFLite
 
