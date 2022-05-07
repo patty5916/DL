@@ -58,3 +58,10 @@ Using Pytorch LeNet5 Model:
 
 
 #### TFLite
+Convert Tensorflow LeNet5 Model to TFLite LeNet5 Model:
+1. go to `tflite` folder
+2. execute `main.py`
+
+        cd tflite
+        python main.py
+3. use [the official benchmark tool](https://www.tensorflow.org/lite/performance/measurement) to evaluate the performance of your model.
