@@ -10,4 +10,11 @@ Image Recognition
   * One-layer Perceptron
   * Two-layer Perceptron
   * Performance Comparison
+
+### Assignment 2
+LeNet5  
+  * Handcrafted
+  * Tensorflow
+  * Pytorch
+  * TFLite
   
